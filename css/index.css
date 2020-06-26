@@ -3,7 +3,44 @@ body {
 }
 h1 {
   color: blue;
+  text-align: center;
+  font-family: Verdana, Geneva, sans-serif;
+}
+h2 {
+  color: black;
+  font-family: Verdana, Geneva, sans-serif;
+}
+h3 {
+  color: black;
+  font-family: Verdana, Geneva, sans-serif;
 }
 p {
+  color: black;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 90%;
+}
+a{
+  font-family: Verdana, Geneva, sans-serif;
+}
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+a:visited {
+  color: purple;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
   color: red;
+  text-decoration: underline;
+}
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
